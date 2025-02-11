@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "サイトブロッカー",
+  "name": "ブロックサイト",
   "version": "1.0",
   "description": "ユーザーが設定画面からブロックするURLを指定できる拡張機能です。",
   "permissions": ["declarativeNetRequest", "storage"],
