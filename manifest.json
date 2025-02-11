@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "サイトブロッカー",
+  "version": "1.0",
+  "description": "ユーザーが設定画面からブロックするURLを指定できる拡張機能です。",
+  "permissions": ["declarativeNetRequest", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["block.html", "style.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
